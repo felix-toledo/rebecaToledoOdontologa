@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/contactoStyle.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <title>Contactos - Rebeca Toledo</title>
 </head>
 <body>
@@ -44,35 +42,43 @@
             </ul>
         </nav>
     </div>
-    <section class="sectionContacto">
-        <h2>&#128242 Si queres contactarme no dudes en llenar el formulario</h2>
-        <fieldset>
-            <legend>Contacto</legend>
-            <form action="contactos.php" method="post" enctype="text/plain">
-            <label for="name">*Nombre:</label>
-            <input required type="text" name="name" id="name"> <br> <br>
-            <label for="surname">Apellido:</label>
-            <input type="text" name="surname" id="surname"><br><br>
-            <label for="">*Correo Electrónico:</label>
-            <input required type="email" name="mail" id="mail"><br><br>
-            <label for="reason">Motivos</label>
-            <select name="reason" id="reason">
-                <option value="nothing"></option>
-                <option value="date">Fechas</option>
-                <option value="questions">Preguntas Varias</option>
-                <option value="help">Ayuda para estudiantes</option>
-                <option value="meeting">Turnos</option>
-            </select><br><br>
-            <label for="message">Mensaje:</label><br>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpiar Campos">
-        </fieldset>
-        </form>
-    </section>
+    <h2 data-aos="flip-left" class="titulos">Contacto</h2>
+    <section class="contactSection">
+        <article data-aos="fade-left" class="contactDescription">
+            <h3>¿Tenés alguna pregunta o duda?</h3>
+            <h4>&#128242 Si queres contactarme, llena el formulario&#128242</h4>
+            <p>En breve vamos a contestarte al mail que declaras!</p>
+        </article>
+        <aside class="asideContacto">
+            <form class="contactForm" action="contactos.php" method="post" enctype="text/plain">
+                <label for="name">*Nombre:</label><br>
+                <input class="widthAndSize" required type="text" name="name" id="name"> <br> <br>
+                <label for="surname">Apellido:</label><br>
+                <input class="widthAndSize" type="text" name="surname" id="surname"><br><br>
+                <label for="">*Correo Electrónico:</label><br>
+                <input class="widthAndSize" required type="email" name="mail" id="mail"><br><br>
+                <label for="reason">Motivo de contacto</label><br>
+                <select class="widthAndSize" name="reason" id="reason">
+                    <option value="nothing"></option>
+                    <option value="date">Fechas</option>
+                    <option value="questions">Preguntas Varias</option>
+                    <option value="help">Ayuda para estudiantes</option>
+                    <option value="meeting">Turnos</option>
+                </select><br><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea class="widthAndSize" name="message" id="message" cols="30" rows="10"></textarea><br><br>
+                <input class="kindOfButton" type="submit" value="Enviar">
+                <input class="kindOfButton" type="reset" value="Limpiar Campos">
+            </form>
+        </aside>
+</section>
     <footer>
         <p>© Hecho por Felix Toledo</p>
         <a href="resenas.html">Reseñas</a>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

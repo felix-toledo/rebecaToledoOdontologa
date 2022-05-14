@@ -337,17 +337,103 @@ html{
     height: auto;
     border: #FFA5AB solid 2px;
     border-radius: 10px;
-    background-color: antiquewhite;
     overflow: hidden;
+    transition: all 0.3s;
 }
 
 
 .foto:hover{
     transform: scale(1.05);
-    transition: all 0.2s;
+    transition: all 0.3s;
     border: black solid 3px;
     box-shadow: 0px 0px 10px 5px white;
 }
+
+/*/////////////////// Styles Contacto /////////////*/
+.sectionContacto{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactSection{
+    background-image: url(/media/images/backgroundImage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-color: white;
+    width: 100%;
+    min-height: 500px;
+    box-shadow:inset 0px 10px 10px 40px white;
+    padding: 50px;
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+}
+
+.contactDescription{
+    margin-top: 20px;
+    background-color: rgba(192, 214, 223, 0.2);
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.asideContacto{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    padding: 20px;
+    justify-self: center;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: rgba(192, 214, 223, 0.8);
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.contactForm{
+    width: 100%;
+}
+
+.widthAndSize{
+    width: 100%;   
+    font-size: 18px;
+}
+
+.kindOfButton {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #320E3B;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #320E3B;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 0 #320E3B;
+}
+  
+.kindOfButton:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #320E3B;
+}
+  
+.kindOfButton:active {
+    transform: scale(0.9);
+}
+
 
 /*//////////////////////////RESPONSIVE*/
 @media only screen and (min-width: 420px) and (max-width:767px)
@@ -459,6 +545,10 @@ html{
     .foto8{
         grid-area: f8;
     }
+
+    .asideContacto{
+        width: 70%;
+    }
 }
 
 @media only screen and (min-width: 1200px){
@@ -548,4 +638,18 @@ html{
     .foto8{
         grid-area: f8;
     }
+
+    .contactSection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .asideContacto{
+        width: 80%;
+    }
+
+    .contactDescription{
+        align-self: center;
+    }
+
 }
