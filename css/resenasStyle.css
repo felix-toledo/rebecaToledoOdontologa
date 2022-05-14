@@ -1,0 +1,50 @@
+.sectionResena{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulos{
+    font-family: sacramento;
+    font-size: 60px;
+    color: #FFA5AB;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+    margin-bottom: -90px;
+}
+
+.formFieldset{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.resenasPersonas{
+    background-color: #C0D6DF;
+    width: 100%;
+    min-height: 400px;
+    box-shadow:inset 0px 10px 10px 40px white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxCritica{
+    width: 22%;
+    height: 180px;
+    background-color: #FFA5AB;
+    border: white solid 2px;
+    border-radius: 10px;
+    box-shadow:inset 0px 0px 10px 4px white;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
