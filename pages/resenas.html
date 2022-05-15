@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/resenasStyle.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
@@ -44,15 +44,17 @@
             </ul>
         </nav>
     </div>
-    <section class="sectionResena">
-        <h2>Me serviria muchisimo que me des una reseña para poder mejorar y que cuentes tu experiencia&#128522</h2>
-        <fieldset class="formFieldset">
-            <legend>Criticas y Reseñas</legend>
-            <form action="resenas.php" method="post" enctype="text/plain">
+    <h2 class="titulos">Criticas y Reseñas</h2>
+    <section class="formSection">
+        <article class="formDescription">
+        <h3>Me serviria muchisimo que me des una reseña para poder mejorar y que cuentes tu experiencia&#128522</h3>
+        </article>
+        <aside class="asideForm">
+            <form class="form" action="resenas.php" method="post" enctype="text/plain">
                 <label for="name">Nombre:</label>
-                <input type="text" name="name" id="name"><br><br>
+                <input class="widthAndSize" type="text" name="name" id="name"><br><br>
                 <label for="image">Si queres podes agregar una imagen tuya</label><br>
-                <input type="file" name="image" id="image"><br><br>
+                <input class="widthAndSize" type="file" name="image" id="image"><br><br>
                 <label for="puntuation">1</label>
                 <input type="radio" name="puntuation" id="puntuation">
                 <label for="puntuation">2</label>
@@ -64,14 +66,15 @@
                 <label for="puntuation">5</label>
                 <input type="radio" name="puntuation" id="puntuation"><br><br>
                 <label for="critics">Mensajes</label><br>
-                <textarea name="critics" id="critics" cols="30" rows="10"></textarea><br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar Campos">
+                <textarea class="widthAndSize" name="critics" id="critics" cols="30" rows="10"></textarea><br>
+                <input class="kindOfButton" type="submit" value="Enviar">
+                <input class="kindOfButton" type="reset" value="Limpiar Campos">
             </form>
-        </fieldset>
+        </aside>
     </section>
+
     <aside><!-- Si bien para que aparezcan las reseñas de las personas se necesita programar, siento que es una buena idea a futuro para dejar en la pagina  -->
-        <h2 class="titulos">Reseñas de las personas&#129763</h2>
+        <h2 class="titulos menosEspacio">Reseñas&#129763</h2>
         <article class="resenasPersonas">
             <div class="boxCritica">
                 <h3>Juana</h3>

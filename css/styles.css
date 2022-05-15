@@ -349,16 +349,9 @@ html{
     box-shadow: 0px 0px 10px 5px white;
 }
 
-/*/////////////////// Styles Contacto /////////////*/
-.sectionContacto{
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+/*/////////////////// Styles Contacto y algo de Reseñas /////////////*/
 
-.contactSection{
+.formSection{
     background-image: url(/media/images/backgroundImage.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -373,7 +366,7 @@ html{
     align-items: center;
 }
 
-.contactDescription{
+.formDescription{
     margin-top: 20px;
     background-color: rgba(192, 214, 223, 0.2);
     padding: 20px;
@@ -382,7 +375,7 @@ html{
     width: 100%;
 }
 
-.asideContacto{
+.asideForm{
     width: 100%;
     height: auto;
     background-color: aqua;
@@ -398,7 +391,7 @@ html{
     border-radius: 5px;
 }
 
-.contactForm{
+.form{
     width: 100%;
 }
 
@@ -434,6 +427,33 @@ html{
     transform: scale(0.9);
 }
 
+/*////////Styles Reseñas///////*/
+.resenasPersonas{
+    background-color: #C0D6DF;
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    box-shadow:inset 0px 10px 10px 40px white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.boxCritica{
+    width: 80%;
+    height: auto;
+    background-color: #FFA5AB;
+    border: white solid 2px;
+    border-radius: 10px;
+    box-shadow:inset 0px 0px 10px 4px white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
 
 /*//////////////////////////RESPONSIVE*/
 @media only screen and (min-width: 420px) and (max-width:767px)
@@ -549,6 +569,19 @@ html{
     .asideContacto{
         width: 70%;
     }
+
+    .resenasPersonas{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .boxCritica{
+        width: 22%;
+        min-height: 190px;
+    }
 }
 
 @media only screen and (min-width: 1200px){
@@ -639,7 +672,7 @@ html{
         grid-area: f8;
     }
 
-    .contactSection{
+    .formSection{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -648,8 +681,21 @@ html{
         width: 80%;
     }
 
-    .contactDescription{
+    .formDescription{
         align-self: center;
+        width: 80%;
     }
 
+    .resenasPersonas{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .boxCritica{
+        width: 22%;
+        min-height: 190px;
+    }
 }
