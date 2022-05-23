@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contactos - Rebeca Toledo</title>
+</head>
+<body>
+    <header>
+        <div class="headerTop">
+            <ul class="headerTop__list1">
+                <li><a href="https://www.google.com/maps/dir//Plaza+Juan+de+Vera,+San+Juan+871,+W3400+CBG,+Corrientes/@-27.4672642,-58.8369942,15z/data=!4m16!1m6!3m5!1s0x0:0x16ecd55857ebb405!2sPlaza+Juan+de+Vera!8m2!3d-27.4672642!4d-58.8369942!4m8!1m0!1m5!1m1!1s0x94456ca4622de6ab:0x16ecd55857ebb405!2m2!1d-58.8369942!2d-27.4672642!3e3" target="_blank"><i class="fa-solid fa-location-dot"></i>Av. Ayacucho 3310</a></li>
+                <li><a href="mailto:felixtoledoctes@gmail.com"><i class="fa-solid fa-envelope"></i> felixtoledoctes@gmail.com</a></li>
+                <li><a href="resenas.html"><i class="fa-solid fa-star"></i> Reseñas</a></li>
+            </ul>
+            <div class="socialMedia">
+                <ul>
+                    <li><a target="_blank" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://facebook.com"><i class="fa-brands fa-facebook"></i></li></a>
+                    <li><a target="_blank" href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="logo">
+                <a href="../index.html">Rebeca Toledo</a>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="../index.html#servicios">SERVICIOS</a></li>
+                <li><a href="../index.html#sobreMi">SOBRE MI</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h2 data-aos="flip-left" class="titulos">Contacto</h2>
+    <section class="formSection">
+        <article data-aos="fade-left" class="formDescription">
+            <h3>¿Tenés alguna pregunta o duda?</h3>
+            <h4>&#128242 Si queres contactarme, llena el formulario&#128242</h4>
+            <p>En breve vamos a contestarte al mail que declaras!</p>
+        </article>
+        <aside class="asideForm">
+            <form class="form" action="contactos.php" method="post" enctype="text/plain">
+                <label for="name">*Nombre:</label><br>
+                <input class="widthAndSize" required type="text" name="name" id="name"> <br> <br>
+                <label for="surname">Apellido:</label><br>
+                <input class="widthAndSize" type="text" name="surname" id="surname"><br><br>
+                <label for="">*Correo Electrónico:</label><br>
+                <input class="widthAndSize" required type="email" name="mail" id="mail"><br><br>
+                <label for="reason">Motivo de contacto</label><br>
+                <select class="widthAndSize" name="reason" id="reason">
+                    <option value="nothing"></option>
+                    <option value="date">Fechas</option>
+                    <option value="questions">Preguntas Varias</option>
+                    <option value="help">Ayuda para estudiantes</option>
+                    <option value="meeting">Turnos</option>
+                </select><br><br>
+                <label for="message">Mensaje:</label><br>
+                <textarea class="widthAndSize" name="message" id="message" cols="30" rows="10"></textarea><br><br>
+                <input class="kindOfButton" type="submit" value="Enviar">
+                <input class="kindOfButton" type="reset" value="Limpiar Campos">
+            </form>
+        </aside>
+    </section>
+    <footer>
+        <p>© Hecho por Felix Toledo</p>
+        <a href="resenas.html">Reseñas</a>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

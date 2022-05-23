@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Reseñas - Rebeca Toledo</title>
+</head>
+<body>
+    <header>
+        <div class="headerTop">
+            <ul class="headerTop__list1">
+                <li><a href="https://www.google.com/maps/dir//Plaza+Juan+de+Vera,+San+Juan+871,+W3400+CBG,+Corrientes/@-27.4672642,-58.8369942,15z/data=!4m16!1m6!3m5!1s0x0:0x16ecd55857ebb405!2sPlaza+Juan+de+Vera!8m2!3d-27.4672642!4d-58.8369942!4m8!1m0!1m5!1m1!1s0x94456ca4622de6ab:0x16ecd55857ebb405!2m2!1d-58.8369942!2d-27.4672642!3e3" target="_blank"><i class="fa-solid fa-location-dot"></i>Av. Ayacucho 3310</a></li>
+                <li><a href="mailto:felixtoledoctes@gmail.com"><i class="fa-solid fa-envelope"></i> felixtoledoctes@gmail.com</a></li>
+                <li><a href="#"><i class="fa-solid fa-star"></i> Reseñas</a></li>
+            </ul>
+            <div class="socialMedia">
+                <ul>
+                    <li><a target="_blank" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://facebook.com"><i class="fa-brands fa-facebook"></i></li></a>
+                    <li><a target="_blank" href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="logo">
+                <a href="../index.html">Rebeca Toledo</a>
+            </div>
+        </div>
+    </header>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="../index.html#servicios">SERVICIOS</a></li>
+                <li><a href="../index.html#sobreMi">SOBRE MI</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h2 class="titulos">Criticas y Reseñas</h2>
+    <section class="formSection">
+        <article class="formDescription">
+        <h3>Me serviria muchisimo que me des una reseña para poder mejorar y que cuentes tu experiencia&#128522</h3>
+        </article>
+        <aside class="asideForm">
+            <form class="form" action="resenas.php" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label>
+                <input class="widthAndSize" type="text" name="name" id="name"><br><br>
+                <label for="image">Si queres podes agregar una imagen tuya</label><br>
+                <input class="widthAndSize" type="file" name="image" id="image"><br><br>
+                <label for="puntuation">1</label>
+                <input type="radio" name="puntuation" id="puntuation">
+                <label for="puntuation">2</label>
+                <input type="radio" name="puntuation" id="puntuation">
+                <label for="puntuation">3</label>
+                <input type="radio" name="puntuation" id="puntuation">
+                <label for="puntuation">4</label>
+                <input type="radio" name="puntuation" id="puntuation">
+                <label for="puntuation">5</label>
+                <input type="radio" name="puntuation" id="puntuation"><br><br>
+                <label for="critics">Mensajes</label><br>
+                <textarea class="widthAndSize" name="critics" id="critics" cols="30" rows="10"></textarea><br>
+                <input class="kindOfButton" type="submit" value="Enviar">
+                <input class="kindOfButton" type="reset" value="Limpiar Campos">
+            </form>
+        </aside>
+    </section>
+
+    <aside><!-- Si bien para que aparezcan las reseñas de las personas se necesita programar, siento que es una buena idea a futuro para dejar en la pagina  -->
+        <h2 class="titulos menosEspacio">Reseñas&#129763</h2>
+        <article class="resenasPersonas">
+            <div class="boxCritica">
+                <h3>Juana</h3>
+                <img width="70px" src="../media/images/resenas/juana_foto.jpg" alt="">
+                <p>5</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit montes eros.</p>
+            </div>
+            <div class="boxCritica">
+                <h3>Pedra</h3>
+                <img width="70px" src="../media/images/resenas/pedra_foto.jpg" alt="">
+                <p>5</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit montes eros.</p>
+            </div>
+            <div class="boxCritica">
+                <h3>Homero</h3>
+                <img width="70px" src="../media/images/resenas/homero_foto.png" alt="">
+                <p>5</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit montes eros.</p>
+        </article>
+    </aside>
+    <footer>
+        <p>© Hecho por Felix Toledo</p>
+        <a href="#">Reseñas</a>
+    </footer>
+</body>
+</html>
