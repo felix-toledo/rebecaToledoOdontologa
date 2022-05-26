@@ -103,6 +103,8 @@ header ul li{
 .navbar{
     z-index: 1!important;
     background-color: rgba(255, 255, 255, 0.5);
+    position: sticky;
+    top: 30px;
 }
 
 .navbar a:hover{
@@ -487,6 +489,7 @@ html{
 
     .navbar{
         height: 30px;
+        top: 0px;
     }
 
     .firstSection{
@@ -611,6 +614,7 @@ html{
 
     .navbar{
         height: 30px;
+        top: 0px;
     }
 
     .firstSection{
