@@ -47,9 +47,7 @@ a{
     padding: 7px;
     font-size: 0px;
     display: flex;
-    flex-flow: nowrap row;
     justify-content: space-between;
-    align-items: center;
 }
 
 .headerTop i{
@@ -58,10 +56,15 @@ a{
 
 header ul li{
     display: inline-block;
+    line-height: 15px;
+}
+
+.headerTop__list1{
+    margin-left: -30px;
 }
 
 .headerTop__list1 li{
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 .socialMedia li{
@@ -478,6 +481,10 @@ html{
         font-size: 15px;
     }
 
+    .headerTop__list1 li{
+        margin-right: 20px;
+    }
+
     .navbar{
         height: 30px;
     }
@@ -596,6 +603,10 @@ html{
 
     .headerTop{
         font-size: 15px;
+    }
+
+    .headerTop__list1 li{
+        margin-right: 20px;
     }
 
     .navbar{
