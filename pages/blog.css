@@ -1,0 +1,11 @@
+#blogLink{
+    padding: 5px;
+    border: 2px solid black;
+    margin-top: 50px;
+    transition: all 0.5s;
+}
+
+#blogLink:hover{
+    border: 2px solid white;
+    transform: scale(1.1);
+}
