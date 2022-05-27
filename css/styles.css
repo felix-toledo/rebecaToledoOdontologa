@@ -98,12 +98,14 @@ a{
 }
 
 footer{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+    background-color: #320E3B;
+    color: aliceblue;
+    box-shadow:inset 0px 10px 10px 40px white;
+    padding: 70px;
+}
+
+footer li a{
+    color: white;
 }
 
 /*INDEX STYLES*/
@@ -191,7 +193,7 @@ html{
 
 .sections{
     width: 100%;
-    min-height: 800px;
+    height: auto;
     background-color: #C0D6DF;
     box-shadow:inset 0px 10px 10px 40px white;
     padding: 70px;
@@ -333,6 +335,30 @@ html{
     box-shadow: 0px 0px 10px 5px white;
 }
 
+/***** Styles BLOG ******/
+
+#blogLink{
+    padding: 5px;
+    border: 2px solid #320E3B;
+    border-radius: 5px;
+    margin-top: 50px;
+    transition: all 0.5s;
+    background-color: #FFA5AB;
+}
+
+#blogLink:hover{
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+
+.text{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
 /*/////////////////// Styles Contacto y algo de Reseñas /////////////*/
 
 .formSection{
@@ -440,7 +466,7 @@ html{
 }
 
 /*//////////////////////////RESPONSIVE*/
-@media only screen and (min-width: 420px) and (max-width:767px)
+@media only screen and (min-width: 575px) and (max-width:767px)
 {
     .firstSection__media{
         width: 100%;
@@ -452,7 +478,7 @@ html{
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width:1200px){
+@media only screen and (min-width: 768px) and (max-width:991px){
     .turnero{
         overflow:visible;
         width: auto;
@@ -568,6 +594,11 @@ html{
         grid-area: f8;
     }
 
+    #blogLink{
+        margin: 5px 10px;
+        width: 30%;
+    }
+
     .asideContacto{
         width: 70%;
     }
@@ -586,7 +617,7 @@ html{
     }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 992px){
     .turnero{
         overflow:visible;
         width: auto;
@@ -690,6 +721,17 @@ html{
     }
     .foto8{
         grid-area: f8;
+    }
+
+    #blogLink{
+        margin: 5px 10px;
+        width: 23%;
+    }
+
+    #blogsImage{
+        width: 50%;
+        height: auto;
+        margin: auto;
     }
 
     .formSection{

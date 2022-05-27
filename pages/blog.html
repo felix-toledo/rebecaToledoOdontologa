@@ -46,7 +46,14 @@
                 <li class="nav-item mx-2"><a class="nav-link" href="../index.html#servicios">SERVICIOS</a></li>
                 <li class="nav-item mx-2"><a class="nav-link" href="../index.html#sobreMi">SOBRE MI</a></li>
                 <li class="nav-item mx-2"><a class="nav-link" href="galeria.html">GALERIA</a></li>
-                <li class="nav-item mx-2"><a class="nav-link" href="blog.html">BLOG</a></li>
+                <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">BLOG</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">BLOG</a></li>
+                      <li><a class="dropdown-item" href="blog.html#blog1">Bebés</a></li>
+                      <li><a class="dropdown-item" href="blog.html#blog2">Protesis</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item mx-2"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
               </li>
             </ul>
@@ -56,21 +63,90 @@
     <main id="mainSpace" class="container-fluid">
         <h3 class="titulos">Blogs</h3>
         <div class="space sections">
-            <section id="blogList" class="row justify-content-between">
-                <a id="blogLink" href="#blog1" class="col-12 col-md-3">
+            <section id="blogList" class="row">
+                <a id="blogLink" href="#blog1" class="col-12 col-md-4 col-lg-3">
                     <figure>
                         <img src="../media/images/blog/bebes.jpg" class="img-thumbnail" alt="Imagen de bebes" style="width: 100%;">
-                        <p class="text-center">Consejo para cepillar a los mas pequeños en casa</p>
                     </figure>
+                    <p class="text-start">Consejo para cepillar a los mas pequeños en casa.</p>
                 </a>
-                <a id="blogLink" href="#blog2" class="col-12 col-md-3">
+                <a id="blogLink" href="#blog2" class="col-12 col-md-3 col-lg-3">
                     <figure>
                         <img src="../media/images/blog/protesis.jpg" class="img-thumbnail" alt="Imagen de bebes" style="width: 100%;">
-                        <p class="text-center">Consejo para cepillar a los mas pequeños en casa</p>
                     </figure>
-                </a>                
+                    <p class="text-start">Mantenimiento y cuidado óptimo de la prótesis dental.</p>
+                </a>  
             </section>
         </div>
     </main>
+    <section class="container-fluid sections">
+        <div class="row">
+            <div id="blog1" class="col-12">
+                <h3 class="text-center">Consejo para cepillar a los mas pequeños en casa.</h3>
+                <figure id="blogsImage">
+                    <img data-aos="fade-up" src="../media/images/blog/bebes.jpg" class="img-thumbnail" alt="Imagen de bebes" style="width: 100%;">
+                </figure>
+                <div data-aos="flip-left" class="text">
+                    <p>Nuestros niños son lo más importante para nosotros por eso debemos recordar los siguientes tips:</p>
+                    <ul>
+                        <li>Enseñarles a cepillarse al menos <b>3 VECES AL DÍA</b> toda la boca durante 2 MINUTOS.</li>
+                        <li>Utilizar en niños la pasta dental en <b>CANTIDADES PEQUEÑAS.</b></li> 
+                        <li>Mantené una alimentación <b>SANA Y EQUILIBRADA.</b></li> 
+                        <li>Evitá el exceso de <b>GOLOSINAS Y AZÚCARES.</b></li> 
+                        <li>Acordate de llevarlos al Odontólogo <b>2 VECES AL AÑO.</b></li> 
+                        <li>Cambiales su cepillo cada <b>3 MESES</b> o antes si las cerdas <b>SE ABREN.</b></li> 
+                    </ul>
+                    <p>En caso de ser recién nacido, debemos empezar a cepillar sus dientes una vez que sale el PRIMER dientito.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid sections">
+        <div class="row">
+            <div id="blog2" class="col-12">
+                <h3 class="text-center">Mantenimiento y Cuidado Óptimo de la prótesis dental.</h3>
+                <figure id="blogsImage">
+                    <img data-aos="fade-up" src="../media/images/blog/protesis.jpg" class="img-thumbnail" alt="Imagen de bebes" style="width: 100%;">
+                </figure>
+                <div data-aos="flip-left" class="text">
+                    <p>La higiene de la prótesis dental puede ser algo laboriosa, pero debe realizarse para poder así conservarlas durante un largo período. Las medidas de higiene deben ser constantes, para evitar efectos secundarios, como acumulación de placa bacteriana tanto en encías como dientes. Las medidas a tener en cuenta son:</p>
+                    <ul>
+                        <li>Retirar y limpiar los dispositivos protéticos después de las comidas, como también realizar la correspondiente higiene en la boca.</li>
+                        <li>Antes de dormir, también cepillarlos, de manera que el cepillado abarque todas las zonas de la prótesis.</li> 
+                        <li>El cepillado debe realizarse con cepillo y agua, ya que las pastas dentales pueden causar daños a su prótesis./li> 
+                        <li>Puede utilizar productos efervescentes para lograr una buena limpieza, colocando los aparatos en un vaso con agua tibia e introduciendo el efervescente por unos minutos ( lo que indique el fabricante). Luego retirar la prótesis del vaso y lavarlo con agua.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row justify-content-around">
+            <nav class="col-12 col-md-5 col-lg-3">
+                <ul class="navbar-nav text-center">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="../index.html#servicios">SERVICIOS</a></li>
+                    <li><a href="../index.html#sobreMi">SOBRE MI</a></li>
+                    <li><a href="galeria.html">GALERIA</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                  </ul>
+            </nav>
+            <div id="desarrollador" class="col-12 col-md-5 col-lg-3 text-center">
+                <p class="text-white">Desarrollado por <b class="text-white">Felix Toledo</b></p>
+                <p><b class="text-white">Contacto Desarrollador:</b> <a class="text-white" href="mailto:felixtoledoctes@gmail.com">felixtoledoctes@gmail.com</a></p>
+            </div>
+            <div id="fixDent" class="col-12 col-md-5 col-lg-3 text-center">
+                <p class="text-white"><b class="text-white">Rebeca Toledo</b> <br>
+                Odontologa Profesional</p>
+                <p class="text-white">Av. Ayacucho 3310 <br> Corrientes Capital <br> 3400</p>
+            </div>
+        </div>
+    </footer>
+    <a class="subir" href="#">☝</a>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
