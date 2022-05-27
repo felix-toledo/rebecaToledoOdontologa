@@ -8,4 +8,21 @@
 
 #4 Haven't finished yet.
 
-26/05/2022
+27/05/2022
+
+--------------------------------------------------------------------------------------
+
+#Header and footer maked with bootstrap.
+
+#Some parts of the index, resenas, galeria and contacto was make with bootstrap. Most of the parts are with HTML and pure CSS.
+
+#Blog page is just bootstrap.
+
+#Animations added with AOS library.
+
+---------------------------------------------------------------------------------------
+
+Context:
+
+I started a full-stack learning path and this is my first page I'm doing with the "web design" course.
+I decided to made a page to my sister, who is a dentist.
