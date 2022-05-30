@@ -108,6 +108,10 @@ footer li a{
     color: white;
 }
 
+.align-responsive{
+    margin-top: 100px;
+}
+
 /*INDEX STYLES*/
     /*FIRST SECTION INDEX*/
 html{
@@ -495,6 +499,7 @@ html{
     }
 
     .navbar{
+        position: static;
         height: 30px;
         top: 0px;
         margin-top: -20px;
@@ -506,6 +511,10 @@ html{
         text-align: center;
         background-color: rgba(255, 255, 255, 0.5);
         border-radius: 2px;
+    }
+
+    .align-responsive{
+        margin-top: 0;
     }
 
     .firstSection{
@@ -642,6 +651,7 @@ html{
     }
 
     .navbar{
+        position: static;
         height: 30px;
         top: 0px;
         margin-top: -20px;
@@ -653,6 +663,10 @@ html{
         text-align: center;
         background-color: rgba(255, 255, 255, 0.5);
         border-radius: 2px;
+    }
+
+    .align-responsive{
+        margin-top: 0;
     }
 
     .firstSection{
