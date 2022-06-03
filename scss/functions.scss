@@ -1,0 +1,22 @@
+@mixin bg-image{
+    background-image: url(../media/images/backgroundImage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-color: $primary-color;
+}
+
+@mixin sticky-things($bg-color, $border-color){
+    background-color: $bg-color;
+    border: $border-color solid 2px !important;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 7px;
+}
+
+@mixin boxes {
+    background-color: $secondary-color;
+    border: white solid 2px;
+    border-radius: 10px;
+    box-shadow:inset 0px 0px 10px 4px white;
+    text-align: center;
+}
