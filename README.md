@@ -14,7 +14,7 @@
 
 #Header and footer maked with bootstrap.
 
-#Some parts of the index, resenas, galeria and contacto was make with bootstrap. Most of the parts are with HTML and pure CSS.
+#Some parts of the index, resenas, galeria and contacto was make with bootstrap. Most of the parts are with HTML and SCSS.
 
 #Blog page is just bootstrap.
 
