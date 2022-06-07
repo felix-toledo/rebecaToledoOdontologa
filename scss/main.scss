@@ -177,11 +177,14 @@ footer{
         min-height: 150px;
         overflow: hidden;
         text-align: center;
-        background-color: rgba(220, 214, 247, .3);
+        background-color: rgba(203, 227, 236, .6);
         border-radius: 10px;
         display: flex;
         align-items: center;
         margin-top: 20px;
+        p{
+            font-weight: 600;
+        }
     }
 }
 
@@ -197,6 +200,7 @@ footer{
     align-items: center;
     .secondSection__boxes{
         width: 90%;
+        padding: 25px;
         height: 280px;
         margin-top: 20px;
         @include boxes;

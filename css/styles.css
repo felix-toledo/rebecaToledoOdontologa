@@ -31,7 +31,7 @@ a {
   animation-iteration-count: infinite;
   animation-delay: 2s;
   background-color: #320E3B;
-  border: #C0D6DF solid 2px !important;
+  border: #cbe3ec solid 2px !important;
   box-shadow: 2px 2px 10px 3px black;
   border-radius: 7px;
 }
@@ -62,7 +62,7 @@ a {
 }
 .topHeader {
   font-size: 1.1rem;
-  background-color: #C0D6DF;
+  background-color: #cbe3ec;
 }
 
 #info, #redes {
@@ -104,7 +104,7 @@ a {
   width: 40px;
   margin-bottom: 5px;
   background-color: #FFA5AB;
-  border: #C0D6DF solid 2px !important;
+  border: #cbe3ec solid 2px !important;
   box-shadow: 2px 2px 10px 3px black;
   border-radius: 7px;
 }
@@ -139,7 +139,7 @@ footer li a {
   background-size: cover;
   background-attachment: fixed;
   background-position: right;
-  background-color: #C0D6DF;
+  background-color: #cbe3ec;
   width: 100%;
   margin-top: -20px;
   min-height: 500px;
@@ -172,16 +172,19 @@ footer li a {
   min-height: 150px;
   overflow: hidden;
   text-align: center;
-  background-color: rgba(220, 214, 247, 0.3);
+  background-color: rgba(203, 227, 236, 0.6);
   border-radius: 10px;
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
+.firstSection .firstSection__description p {
+  font-weight: 600;
+}
 
 .secondSection {
   margin-top: -20px;
-  background-color: #C0D6DF;
+  background-color: #cbe3ec;
   width: 100%;
   min-height: 400px;
   box-shadow: inset 0px 10px 10px 40px white;
@@ -192,6 +195,7 @@ footer li a {
 }
 .secondSection .secondSection__boxes {
   width: 90%;
+  padding: 25px;
   height: 280px;
   margin-top: 20px;
   background-color: #FFA5AB;
@@ -209,7 +213,7 @@ footer li a {
 .sections {
   width: 100%;
   height: auto;
-  background-color: #C0D6DF;
+  background-color: #cbe3ec;
   box-shadow: inset 0px 10px 10px 40px white;
   padding: 70px;
   display: flex;
@@ -258,7 +262,7 @@ footer li a {
   width: 100%;
   height: 300px;
   overflow: hidden;
-  border: solid 2px #C0D6DF;
+  border: solid 2px #cbe3ec;
 }
 
 .obrasSociales {
@@ -282,7 +286,7 @@ footer li a {
   margin-top: 20px;
 }
 .sobreMi__secondArticle a {
-  color: #C0D6DF;
+  color: #cbe3ec;
   text-shadow: 1px 1px 2px black;
 }
 .sobreMi__secondArticle a:hover {
@@ -302,7 +306,7 @@ footer li a {
   font-size: 25px;
   transition: all 0.5s ease-in-out;
   background-color: #FFA5AB;
-  border: #C0D6DF solid 2px !important;
+  border: #cbe3ec solid 2px !important;
   box-shadow: 2px 2px 10px 3px black;
   border-radius: 7px;
 }
@@ -370,7 +374,7 @@ footer li a {
   background-size: cover;
   background-attachment: fixed;
   background-position: right;
-  background-color: #C0D6DF;
+  background-color: #cbe3ec;
   width: 100%;
   min-height: 500px;
   box-shadow: inset 0px 10px 10px 40px white;
@@ -442,7 +446,7 @@ footer li a {
 }
 
 .resenasPersonas {
-  background-color: #C0D6DF;
+  background-color: #cbe3ec;
   margin-top: 70px;
   width: 100%;
   height: auto;
@@ -570,7 +574,7 @@ footer li a {
     display: grid;
     grid-gap: 10px;
     box-shadow: inset 0px 10px 10px 40px white;
-    background-color: #C0D6DF;
+    background-color: #cbe3ec;
     padding: 50px;
     padding-top: 75px;
     visibility: visible;
