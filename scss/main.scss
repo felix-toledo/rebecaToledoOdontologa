@@ -81,12 +81,16 @@ a{
 }
 
 .logo{
-    a{
+    a h1{
         font-family: sacramento;
         font-size: 3rem;
         margin-left: -20px;
         color: #C0D6DF;
         text-shadow: 1px 1px 2px black;
+        transition: all 1s;
+        &:hover{
+            transform: scale(1.05);
+        }
     }
 }
 
