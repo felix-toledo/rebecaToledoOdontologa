@@ -32,7 +32,7 @@ a{
     animation: shake-horizontal 4s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
-    @include sticky-things($third-color, $primary-color);
+    @include sticky-things(map-get($map: $palette, $key: 'third'), map-get($map: $palette, $key: 'primary'));
     &:hover{
         border: double white 2px;
         box-shadow: -1px -1px 2px black;
@@ -68,7 +68,7 @@ a{
 
 .topHeader{
     font-size: 1.1rem;
-    background-color: $primary-color;
+    background-color: map-get($map: $palette, $key: 'primary');
 }
 
 #info, #redes{
@@ -116,7 +116,7 @@ a{
 .navbar-toggler{
     width: 40px;
     margin-bottom: 5px;
-    @include sticky-things($secondary-color, $primary-color);
+    @include sticky-things(map-get($map: $palette, $key: 'secondary'), map-get($map: $palette, $key: 'primary'));
     &:hover{
         border: black solid 2px;
         box-shadow: 2px 2px 10px 3px white;
@@ -130,7 +130,7 @@ a{
 }
 
 footer{
-    background-color: $third-color;
+    background-color: map-get($map: $palette, $key: 'third');
     color: aliceblue;
     box-shadow:inset 0px 10px 10px 40px white;
     padding: 70px;
@@ -157,7 +157,7 @@ footer{
     flex-flow: column;
     .firstSection__media{
         width: 130%;
-        border: #FFA5AB solid 2px;
+        border: map-get($map: $palette, $key: 'secondary') solid 2px;
         border-radius: 5px;
         overflow: hidden;
         display: flex;
@@ -194,7 +194,7 @@ footer{
 
 .secondSection{
     margin-top: -20px;
-    background-color: $primary-color;
+    background-color: map-get($map: $palette, $key: 'primary');
     width: 100%;
     min-height: 400px;
     box-shadow:inset 0px 10px 10px 40px white;
@@ -219,7 +219,7 @@ footer{
 .sections{
     width: 100%;
     height: auto;
-    background-color: $primary-color;
+    background-color: map-get($map: $palette, $key: 'primary');
     box-shadow:inset 0px 10px 10px 40px white;
     padding: 70px;
     display: flex;
@@ -235,7 +235,7 @@ footer{
 .titulos{
     font-family: $title-font;
     font-size: 70px;
-    color: $secondary-color;
+    color: map-get($map: $palette, $key: 'secondary');
     text-shadow: 3px 3px 5px black;
     text-align: center;
     margin-bottom: -90px;
@@ -269,7 +269,7 @@ footer{
     width: 100%;
     height: 300px;
     overflow: hidden;
-    border: solid 2px $primary-color;
+    border: solid 2px map-get($map: $palette, $key: 'primary');
 }
 
 .obrasSociales{
@@ -285,14 +285,14 @@ footer{
 
 .sobreMi__secondArticle{
     width: 100%;
-    background-color: $secondary-color;
+    background-color: map-get($map: $palette, $key: 'secondary');
     border: white solid 2px;
     border-radius: 10px;
     text-align: center;
     box-shadow:inset 0px 0px 10px 2px white;
     margin-top: 20px;
     a{
-        color: $primary-color;
+        color: map-get($map: $palette, $key: 'primary');
         text-shadow: 1px 1px 2px black;
         &:hover{
             color: white;
@@ -312,7 +312,7 @@ footer{
     line-height: 50px;
     font-size: 25px;
     transition: all 0.5s ease-in-out;
-    @include sticky-things($secondary-color, $primary-color);
+    @include sticky-things(map-get($map: $palette, $key: 'secondary'), map-get($map: $palette, $key: 'primary'));
     &:hover{
         border: black solid 2px;
         box-shadow: 2px 2px 10px 3px white;
@@ -331,7 +331,7 @@ footer{
 .foto{
     width: auto;
     height: auto;
-    border: $third-color solid 2px;
+    border: map-get($map: $palette, $key: 'third') solid 2px;
     border-radius: 10px;
     overflow: hidden;
     transition: all 0.3s;
@@ -346,7 +346,7 @@ footer{
 }
 
 .carousel-item{
-    border: 2px solid $third-color;
+    border: 2px solid map-get($map: $palette, $key: 'third');
     border-radius: 5px;
     margin-top: 25px;
 }
@@ -354,11 +354,11 @@ footer{
 /*----------Styles BLOG----------*/
 #blogLink{
     padding: 5px;
-    border: 2px solid $third-color;
+    border: 2px solid map-get($map: $palette, $key: 'third');
     border-radius: 5px;
     margin-top: 50px;
     transition: all 0.5s;
-    background-color: $secondary-color;
+    background-color: map-get($map: $palette, $key: 'secondary');
 }
 
 #blogLink:hover{
@@ -399,7 +399,7 @@ footer{
 .asideForm{
     width: 100%;
     height: auto;
-    background-color: aqua;
+    background-color: map-get($map: $palette, $key: 'primary');
     padding: 20px;
     justify-self: center;
     margin-top: 20px;
@@ -430,18 +430,18 @@ footer{
     font-size: 18px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: $third-color;
+    color: map-get($map: $palette, $key: 'third');
     background: transparent;
     cursor: pointer;
     transition: ease-out 0.5s;
-    border: 2px solid $third-color;
+    border: 2px solid map-get($map: $palette, $key: 'third');
     border-radius: 3px;
-    box-shadow: inset 0 0 0 0 $third-color;
+    box-shadow: inset 0 0 0 0 map-get($map: $palette, $key: 'third');
 }
   
 .kindOfButton:hover {
     color: white;
-    box-shadow: inset 0 -100px 0 0 $third-color;
+    box-shadow: inset 0 -100px 0 0 map-get($map: $palette, $key: 'third');
 }
   
 .kindOfButton:active {
@@ -449,7 +449,7 @@ footer{
 }
 
 .resenasPersonas{
-    background-color: $primary-color;
+    background-color: map-get($map: $palette, $key: 'primary');
     margin-top: 70px;
     width: 100%;
     height: auto;
@@ -460,15 +460,14 @@ footer{
 }
 
 .boxCritica{
+    @extend .secondSection__boxes;
     @include boxes;
-    width: 80%;
-    height: auto;
+    height: 250px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    padding: 10px;
+    margin-top: 20px;
 }
  
 /*RESPONSIVE*/
@@ -576,7 +575,7 @@ footer{
         display: grid;
         grid-gap: 10px;
         box-shadow:inset 0px 10px 10px 40px white;
-        background-color: $primary-color;
+        background-color: map-get($map: $palette, $key: 'primary');
         padding: 50px;
         padding-top: 75px;
         visibility: visible;
@@ -715,7 +714,7 @@ footer{
         display: grid;
         grid-gap: 10px;
         box-shadow:inset 0px 10px 10px 40px white;
-        background-color: #C0D6DF;
+        background-color: map-get($map: $palette, $key: 'primary');
         padding: 50px;
         padding-top: 75px;
         visibility: visible;

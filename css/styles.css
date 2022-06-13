@@ -197,7 +197,7 @@ footer li a {
   justify-content: space-around;
   align-items: center;
 }
-.secondSection .secondSection__boxes {
+.secondSection .secondSection__boxes, .secondSection .boxCritica {
   width: 90%;
   padding: 25px;
   height: 280px;
@@ -400,7 +400,7 @@ footer li a {
 .asideForm {
   width: 100%;
   height: auto;
-  background-color: aqua;
+  background-color: #cbe3ec;
   padding: 20px;
   justify-self: center;
   margin-top: 20px;
@@ -466,14 +466,12 @@ footer li a {
   border-radius: 10px;
   box-shadow: inset 0px 0px 10px 4px white;
   text-align: center;
-  width: 80%;
-  height: auto;
+  height: 250px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  margin: 20px;
-  padding: 10px;
+  margin-top: 20px;
 }
 
 /*RESPONSIVE*/
@@ -721,7 +719,7 @@ footer li a {
     display: grid;
     grid-gap: 10px;
     box-shadow: inset 0px 10px 10px 40px white;
-    background-color: #C0D6DF;
+    background-color: #cbe3ec;
     padding: 50px;
     padding-top: 75px;
     visibility: visible;
