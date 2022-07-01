@@ -1,20 +1,11 @@
-/* Error: Undefined variable.
- *   ,
- * 6 |     background-color: $primary-color;
- *   |                       ^^^^^^^^^^^^^^
- *   '
- *   scss\functions.scss 6:23  bg-image()
- *   scss\main.scss 149:5      root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      background-color: $primary-color;\d\a   \2502                        ^^^^^^^^^^^^^^\a   \2575 \a   scss\\functions.scss 6:23  bg-image()\a   scss\\main.scss 149:5      root stylesheet";
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Sacramento&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: montserrat;
+  text-decoration: none;
 }
 
 html {
