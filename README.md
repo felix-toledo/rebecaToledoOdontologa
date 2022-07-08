@@ -6,9 +6,9 @@
 
 #3 Learning HTML - CSS and BOOTSTRAP.
 
-#4 Haven't finished yet.
+#4 Almost Finished.
 
-07/06/2022
+07/07/2022
 
 --------------------------------------------------------------------------------------
 
@@ -26,3 +26,6 @@ Context:
 
 I started a full-stack learning path and this is my first page I'm doing with the "web design" course.
 I decided to made a page to my sister, who is a dentist.
+
+---------------------------------------------------------------------------------------
+
