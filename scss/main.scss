@@ -33,10 +33,7 @@ a{
     position: fixed;
     top: 35px;
     left: 10px;
-    z-index: 2;
-    animation: shake-horizontal 4s;
-    animation-iteration-count: infinite;
-    animation-delay: 2s;
+    z-index: 3;
     @include sticky-things(map-get($map: $palette, $key: 'third'), map-get($map: $palette, $key: 'primary'));
     &:hover{
         border: double white 2px;
@@ -44,30 +41,6 @@ a{
     }
     a{
         line-height: 15px;
-    }
-}
-
-@keyframes shake-horizontal {
-    0%,
-    100% {
-      transform: translateX(0);
-    }
-    10%,
-    30%,
-    50%,
-    70% {
-      transform: translateX(-6px);
-    }
-    20%,
-    40%,
-    60% {
-      transform: translateX(6px);
-    }
-    80% {
-      transform: translateX(4px);
-    }
-    90% {
-      transform: translateX(-4px);
     }
 }
 
@@ -381,9 +354,7 @@ footer{
 }
 
 /*----------Styles Galeria----------*/
-.galerySection{
-    padding: 0px!important;
-}
+
 
 .contenedorFotos{
     padding: 20px;
