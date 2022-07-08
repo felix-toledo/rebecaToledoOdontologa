@@ -82,12 +82,9 @@ a {
   text-shadow: 1px 1px 2px black;
   transition: all 1s;
 }
-.logo a h1:hover {
-  transform: scale(1.05);
-}
 
 .navbar {
-  z-index: 1 !important;
+  z-index: 2 !important;
   position: sticky;
   top: 30px;
   margin-top: -90px;
@@ -218,7 +215,7 @@ footer li a {
 }
 
 .sections {
-  width: 100%;
+  width: 100vw;
   height: auto;
   background-color: #cbe3ec;
   box-shadow: inset 0px 10px 10px 40px white;
@@ -238,9 +235,15 @@ footer li a {
   margin-bottom: -90px;
 }
 
+.services {
+  padding: 50px 0px !important;
+  width: 100vw !important;
+  overflow: hidden !important;
+}
+
 .l-container {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 80vw);
   grid-gap: 30px;
   width: 100%;
   max-width: 1200px;
@@ -338,6 +341,7 @@ footer li a {
 }
 
 .subir {
+  z-index: 2;
   height: 50px;
   width: 50px;
   position: fixed;
