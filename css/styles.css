@@ -8,6 +8,11 @@
   text-decoration: none;
 }
 
+body {
+  width: 100vw;
+  overflow-x: hidden !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -242,6 +247,9 @@ footer li a {
 }
 
 .l-container {
+  align-self: center;
+  justify-self: center;
+  margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(1, 80vw);
   grid-gap: 30px;
@@ -251,7 +259,7 @@ footer li a {
 }
 
 .b-game-card {
-  position: relative;
+  justify-self: center;
   z-index: 1;
   width: 100%;
   padding-bottom: 150%;
@@ -364,12 +372,16 @@ footer li a {
 }
 
 /*----------Styles Galeria----------*/
+.galerySection {
+  padding: 0px !important;
+}
+
 .contenedorFotos {
-  display: none;
-  visibility: hidden;
+  padding: 20px;
 }
 
 .foto {
+  margin-top: 20px;
   width: auto;
   height: auto;
   border: #320E3B solid 2px;
@@ -561,7 +573,7 @@ footer li a {
     grid-template-rows: 1fr 1fr;
   }
   .firstSection__media {
-    width: 100%;
+    width: 100% !important;
     grid-area: 1/1/2/3;
   }
   .firstSection__person {
@@ -577,6 +589,7 @@ footer li a {
   }
   .l-container {
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 0px;
   }
   .ubicationMap {
     width: 80%;
@@ -602,6 +615,9 @@ footer li a {
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "f1 f2 f3 " "f4 f5 f7 " "f8 f6 f6 ";
+  }
+  .foto {
+    margin-top: 0px;
   }
   .foto1 {
     grid-area: f1;
@@ -702,6 +718,7 @@ footer li a {
     grid-template-columns: repeat(4, 20vw);
     align-self: center;
     justify-content: center;
+    margin-left: 0px;
   }
   .sobreMi__secondArticle {
     width: 20%;
@@ -720,6 +737,9 @@ footer li a {
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(3, 32%);
     grid-template-areas: "f1 f2 f2 f3" "f4 f2 f2 f5" "f4 f6 f7 f8";
+  }
+  .foto {
+    margin-top: 0px;
   }
   .foto1 {
     grid-area: f1;
