@@ -92,9 +92,6 @@ Project Link:
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 Since I was learning at the same time I was doing the page, I found helpful a lot of pages to learn but the best were:
 
 * [GitHub Pages](https://pages.github.com)
