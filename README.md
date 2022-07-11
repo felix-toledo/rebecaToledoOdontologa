@@ -47,11 +47,9 @@ I decided to make the project for my Sister because she needed a webpage for his
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![HTML][https://developer.mozilla.org/es/docs/Web/HTML]][HTML-url]
-* [![SASS][https://sass-lang.com/]][SASS-url]
+BOOTSTRAP
+HTML
+SASS
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
