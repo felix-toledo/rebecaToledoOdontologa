@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Dentist",
+          "name": "Rebeca Toledo - Odontóloga",
+          "image": "https://rebetoledo.com/media/images/person.png",
+          "description": "Dentista especializado en el cuidado de la salud bucal. Proporciona tratamientos para mantener los dientes y encías sanos. Corrientes, Argentina.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Corrientes",
+            "addressCountry": "Argentina"
+          },
+          "telephone": "+54 3794-68-0563",
+          "url": "https://rebetoledo.com/",
+          "sameAs": [
+            "https://www.instagram.com/odontologiaintegral_toledo"
+          ]
+        }
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,8 +39,8 @@
         <div class="container-fluid">
             <div class="row justify-content-between topHeader">
                 <div id="info" class="col-4 col-md-8">
-                    <a class="mx-3 text-black" href="https://goo.gl/maps/YmE2wvnMDdWUwaZx9" target="_blank"><i class="fa-solid fa-location-dot"></i><span class="d-none d-lg-inline">Reconquista 1012, 1er Piso</span></a>
-                    <a class="mx-3 text-black" href="mailto:rebecaaymara@gmail.com"><i class="fa-solid fa-envelope"></i><span class="d-none d-lg-inline"> rebecaaymara@gmail.com</span></a>
+                    <a class="mx-3 text-black" href="https://goo.gl/maps/YmE2wvnMDdWUwaZx9" target="_blank"><i class="fa-solid fa-location-dot"></i><span class="d-none d-lg-inline" itemprop="address">Reconquista 1012, 1er Piso</span></a>
+                    <a class="mx-3 text-black" href="mailto:rebecaaymara@gmail.com"><i class="fa-solid fa-envelope"></i><span class="d-none d-lg-inline" itemprop="email"> rebecaaymara@gmail.com</span></a>
                     <a class="mx-3 text-black" href="./pages/resenas.html"><i class="fa-solid fa-star"></i><span class="d-none d-lg-inline"> Reseñas</span></a>
                 </div>
                 <div id="redes" class="col-4 col-md-4 text-sm-end">
@@ -32,7 +51,7 @@
             </div>
             <div class="row text-center">
                 <div class="logo">
-                    <a href="#"><h1>Rebeca Toledo</h1></a>
+                    <a href="#"><h1 itemprop="name">Rebeca Toledo</h1></a>
                 </div>
             </div>
         </div>

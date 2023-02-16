@@ -1,0 +1,13 @@
+User-agent: *
+
+Sitemap: http://www.rebetoledo.com/sitemap.xml
+
+Disallow: /media/
+Disallow: /scss/
+Disallow: /css/
+Disallow: README.md
+Disallow: /pages/
+
+Allow: /pages/blog.html
+Allow: /pages/contacto.html
+
